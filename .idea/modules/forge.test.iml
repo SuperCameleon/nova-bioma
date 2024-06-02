@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="minecraft" name="Minecraft">
+      <configuration>
+        <autoDetectTypes>
+          <platformType>MCP</platformType>
+          <platformType>MIXIN</platformType>
+          <platformType>FORGE</platformType>
+        </autoDetectTypes>
+      </configuration>
+    </facet>
+  </component>
+  <component name="McpModuleSettings">
+    <option name="mappingFile" value="C:\Users\Thibaud\Documents\GitHub\nova-bioma\forge\build\createMcpToSrg\output.tsrg" />
+    <option name="mcpVersion" value="parchment_2024.06.02-1.20.6" />
+    <option name="minecraftVersion" value="1.20.6" />
+    <option name="platformVersion" value="50.0.31" />
+    <option name="srgType" value="TSRG" />
+  </component>
+</module>
