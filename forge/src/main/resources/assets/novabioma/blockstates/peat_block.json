@@ -1,0 +1,7 @@
+{
+  "variants":{
+    "": {
+      "model": "novabioma:block/peat_block"
+    }
+  }
+}
