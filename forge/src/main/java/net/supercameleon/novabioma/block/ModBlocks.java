@@ -1,4 +1,4 @@
-package net.supercameleon.novabioma.item.block;
+package net.supercameleon.novabioma.block;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -12,6 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.supercameleon.novabioma.NovaBioma;
 import net.supercameleon.novabioma.item.ModItems;
+import net.supercameleon.novabioma.item.custom.FuelBlockItem;
 
 import java.util.function.Supplier;
 
@@ -29,7 +30,7 @@ public class ModBlocks {
     }
 
     private static <T extends Block>RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
-        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),new Item.Properties()));
+        return ModItems.ITEMS.register(name, () -> new FuelBlockItem(block.get(),new Item.Properties(), 3200));
     }
 
     public static void register(IEventBus eventBus) {

@@ -1,7 +1,6 @@
 package net.supercameleon.novabioma;
 
 import com.mojang.logging.LogUtils;
-import net.minecraft.client.gui.screens.inventory.CreativeInventoryListener;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.supercameleon.novabioma.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
@@ -10,14 +9,11 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.supercameleon.novabioma.item.ModItems;
-import net.supercameleon.novabioma.item.block.ModBlocks;
+import net.supercameleon.novabioma.block.ModBlocks;
 import org.slf4j.Logger;
 
 @Mod(NovaBioma.MOD_ID)
